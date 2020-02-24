@@ -22,6 +22,8 @@
     "test": "test"
   },
   "scripts": {
+    "start": "webpack --watch --mode=development",
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/davidcparkk/couchhopper/issues"
   },
-  "homepage": "https://github.com/davidcparkk/couchhopper#readme"
+  "homepage": "https://github.com/davidcparkk/couchhopper#readme",
+  "devDependencies": {}
 }
